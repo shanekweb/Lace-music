@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+.fontPatua {
+    font-family: 'Patua One', cursive;
+}
+
+.dark-green {
+    color: #397883;
+}
+
+.dark-text {
+    color: #333;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+.cb {
+    clear: both;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.nomarginpad {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+html {
+    font-size: 16px;
+    color: #fff;
+    text-rendering: optimizeLegibility;
+    font-family: 'Patua One', cursive;
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 50px;
+}
+
+.break {
+    height: 20px;
+}
+
+header h1 {
+    color: #397883;
+    font-family: 'Dancing Script', cursive;
+}
+
+header {
+    background: #D9EFEF url(../img/bg2.png);
+    position: relative;
+    z-index: 0;
+}
+
+.logo-text {
+    margin-bottom: 20px;
+}
+
+.social {
+    padding-top: 30px;
+}
+
+.social li {
+    list-style: none;
+    float: right;
+}
+
+.social li a {
+    margin-left: 5px;
+}
+
+.lacehead {
+    position: absolute;
+    background: url(../img/lace.png);
+    top: 0;
+    left: 0;
+    height: 150px;
+    width: 150px;
+    z-index: -3
+}
+
+.laceSize {
+    font-size: 4em;
+    padding-top: 30px;
+}
+
+.img {
+    margin-top: 2%;
+}
+
+.bio-text, .testimonials-text {
+    color: #397883;
+    margin-top: 2%;
+}
+
+.bio2margin {
+    margin-top: 2%;
+}
+
+

@@ -1,0 +1,43 @@
+.contact-container {
+	margin-top: 2%;
+}
+
+.contact-container .img {
+	margin-top: 0 !important;
+}
+
+.contact-text {
+	color: #397883;
+}
+
+form {
+	width: 70%;
+}
+
+fieldset {
+	padding: 3%;
+	background: #D9EFEF;
+}
+
+form input {
+	padding: 1%;
+	width: 100%;
+}
+
+input:focus { 
+    outline: 2px solid #E27799;
+}
+
+form textarea {
+	padding: 1%;
+	width: 100%;
+}
+
+textarea:focus {
+	outline: 2px solid #E27799;
+}
+
+#submit {
+	background: #E27799;
+	color: #fff;
+}
